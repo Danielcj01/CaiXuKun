@@ -1,0 +1,13 @@
+def sum_of_even_numbers(n):
+    """
+    Calculates the sum of all even numbers between 1 and n (inclusive).
+    """
+    total = 0
+    for num in range(2, n+1, 2):
+        total += num
+    return total
+
+# Example usage
+number = 10
+result = sum_of_even_numbers(number)
+print(f"The sum of even numbers between 1 and {number} is: {result}")
